@@ -1,0 +1,387 @@
+body{
+    background-color: rgb(30, 28, 28);
+}
+#logo{
+    width: 150px;
+    margin-left: 50px;
+    top: 20px;
+    position: sticky;
+}
+.mainclass2 input{
+    margin-left: 50px;
+    padding-top: 0px;
+    padding-left: 30px;
+    /* padding-bottom: 20px; */
+    margin-top: 5px;
+    width: 180px;
+    height: 50px;    
+    /* margin-bottom: 200px; */
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.mainclass2{
+    position: relative;
+}
+.mainclass2 input::placeholder {
+    /* color: red; */
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.input-container {
+    position: relative;
+    display: inline-block; 
+    top: 10px;  
+}
+.input-container input {
+    padding-left: 30px;     
+    background-color: rgb(44, 42, 42);
+    border-radius: 25px;
+    border:1px solid white;
+    border: none;
+}
+.input-container i {
+    position: absolute;
+    left: 70px;              
+    top: 40%;
+   color: gray;               
+}
+.mainclass img{
+    margin-top: 20px;
+}
+.input-container{
+    margin-left: 150px;
+    margin-top: 2px;
+}
+.navbar{
+    text-align: end;
+    border: 1px solid white;
+    width: 950px;
+    height: 100px;
+    position: absolute;
+    /* display: inline-block; */
+    top: 10px;
+    left: 750px;
+    border: none;
+}
+.navbar button{
+    padding: 5px;
+    margin-right: 100px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar #Profile:hover{
+    background-color: rgb(215, 102, 187);
+    color: white;
+}
+.navbar button:hover{
+    color: rgb(215, 102, 187);
+}
+
+#profile-img {
+  width: 38px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 8px;
+  top: 15px;
+  position: absolute;
+}
+#Profile {
+  margin-top: 10px;
+  gap: 5px;                       
+  padding-top: 10px;
+  border: 1px solid white;
+  width: 150px;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(44, 42, 42);
+  padding-right: 35px;
+}
+.maindiv{
+    border: 2px solid white;
+    width: 1080px;
+    height: 2000px;
+    margin-left: 350px;
+    margin-top: 100px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    /* justify-content: center; */
+    background-color: rgb(43, 42, 42);
+    border: none;
+}
+.banner{
+    border: 2px solid white;
+    height: 400px;
+    width: 1000px;
+    border-radius: 25px;
+    margin: 40px;
+    background-image: url(banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 40px; */
+    border: none;
+}
+#head1{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+#sp1{
+    /* padding-top: 5px; */
+    color: rgb(215, 102, 187);
+    font-size: 25px;
+}
+.headings{
+    margin-top: 35px;
+}
+
+#head2 {
+  margin-left: 50px;   /* align with head1 */
+  color: white;
+  margin-top: 25px;
+  line-height: 25px;
+  font-size: 25px;
+}
+.button{
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+#button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(215, 102, 187);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.most{
+    /* margin-top: 60px; */
+    /* padding: 30px; */
+    background-color: #1f2122;
+    border-radius: 23px;
+    border: 2px solid white;
+    /* margin: 60px; */
+    height: 750px;
+    width: 1000px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.heading3{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+}
+#sp3{
+    color: rgb(215, 102, 187);
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    border: 1px solid white;
+    height: 250px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 38px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(44, 42, 42);
+    
+}
+/* #i1{
+    padding: 30px;
+} */
+ .img1 img{
+    width: 110%;
+    margin: 10px;
+    margin-left: 32px;
+    border-radius: 15px;
+ }
+.info h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    line-height: 25px;
+    color: white;
+    margin-left: 10px;
+}
+.imgone ul {
+    color: white;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.imgone {
+   
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    
+}
+#sp4{
+    color: #404243;
+}
+.ab ul{
+    margin-top: 142px;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10px; */
+    /* padding-left: 20px; */
+    
+}
+.ab ul li{
+list-style-type: none;
+display: flex;
+align-items: center;
+gap: 5px;
+padding-right: 20px;
+}
+.fa-star{
+    color: yellow;
+}
+.fa-download{
+    color: rgb(215, 102, 187);
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .row2 .images{
+    display: flex;
+    flex-direction: column;
+} */
+ #fb{
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 420px;
+    padding: 15px;
+    background-color: rgb(215, 102, 187);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+ }
+ .most2{
+    /* margin-top: 60px; */
+    /* padding: 30px; */
+    background-color: #1f2122;
+    border-radius: 23px;
+    border: 2px solid white;
+    /* margin: 60px; */
+    height: 600px;
+    width: 1000px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.heading4{
+     margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+    font-size: 25px;
+}
+.games{
+    display: flex;
+    flex-direction: row;
+   
+}
+.gameone{
+    border: 2px solid white;
+    margin-top: 55px;
+    margin-left: 48px;
+    height: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+#gameimg{
+    margin: 10px;
+    margin-bottom: 2px;
+    border-radius: 15px;
+    width:65px;
+    height:65px;
+}
+/* .divdata h4{
+    color: white;
+} */
+#sp5{
+    color: #404243;
+}
+.divdata{
+    margin-top: 22px;
+    margin-left: 15px;
+    border: none;
+}
+.divdata1{
+    margin-top: 22px;
+    margin-left: 75px;
+    /* border: none; */
+}
+#gamehead{
+    color: white;
+}
+.divdata1 button{
+    margin-top: 3px;
+    padding: 10px;
+    background-color: #404243;
+    border: none;
+    border: #404243;
+    border-radius: 15px;
+}
+.divdata1 #but{
+    color: rgb(215, 102, 187);
+    border: 1px solid rgb(215, 102, 187);
+    background-color: transparent;
+    padding: 10px;
+    width: 95px;
+}
+#view{
+    width: 150px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 420px;
+    padding: 15px;
+    background-color: rgb(215, 102, 187);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+}
+#copy{
+    color: rgb(173, 165, 165);
+    margin-left: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+#cpy{
+    margin-left: 150px;
+    /* margin-top: 15px; */
+}
